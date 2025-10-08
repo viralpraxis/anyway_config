@@ -3,8 +3,6 @@
 require "anyway/loaders/base"
 
 module Anyway
-  using RubyNext
-
   module Loaders
     autoload :YAML, "anyway/loaders/yaml"
     autoload :Env, "anyway/loaders/env"
