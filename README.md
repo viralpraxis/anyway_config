@@ -105,8 +105,8 @@ gem "anyway_config", "~> 2.0"
 
 ### Supported Ruby versions
 
-- Ruby (MRI) >= 2.5.0
-- JRuby >= 9.2.9
+- Ruby (MRI) >= 2.7.0
+- JRuby >= 9.3.0
 
 ## Usage
 
@@ -347,7 +347,7 @@ end
 
 ## Using with Rails
 
-**NOTE:** version 2.x supports Rails >= 5.0; for Rails 4.x use version 1.x of the gem.
+**NOTE:** version 2.x supports Rails >= 6.0; for older versions use version 1.x of the gem.
 
 We recommend going through [Data population](#data-population) and [Organizing configs](#organizing-configs) sections first,
 and then use [Rails generators](#generators) to make your application Anyway Config-ready.

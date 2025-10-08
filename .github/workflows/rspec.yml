@@ -36,13 +36,7 @@ jobs:
         - ruby: "3.4"
           gemfile: "gemfiles/railsmaster.gemfile"
           rbs: 'false'
-        - ruby: "2.5"
-          gemfile: "gemfiles/rails5.gemfile"
-          rbs: 'false'
         - ruby: "2.7"
-          gemfile: "gemfiles/rails5.gemfile"
-          rbs: 'false'
-        - ruby: "2.6"
           gemfile: "gemfiles/rails6.gemfile"
           rbs: 'false'
     steps:

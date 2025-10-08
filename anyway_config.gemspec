@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
     Dir.glob("bin/**/*") + %w[sig/anyway_config.rbs sig/manifest.yaml] +
     %w[README.md LICENSE.txt CHANGELOG.md]
   s.require_paths = ["lib"]
-  s.required_ruby_version = ">= 2.5"
+  s.required_ruby_version = ">= 2.7"
 
   # When gem is installed from source, we add `ruby-next` as a dependency
   # to auto-transpile source files during the first load
